@@ -14,6 +14,18 @@ body {
     font-family: 'Roboto',  sans-serif;
     color: #434455;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+        margin: 0;
+}
+ul {
+        margin: 0;
+        padding: 0;
+}
 .logo-web {
     color: #2E2F42;
 }
@@ -30,8 +42,18 @@ body {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+        margin-right: 76px;
+}
+.logo-footer {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -96,6 +118,8 @@ body {
          cursor: pointer;
          display: block;
          margin: 0 auto;
+        padding: 16px 32px;
+         border: none;
         border-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -113,6 +137,7 @@ color: #FFFFFF;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2E2F42;
+            margin-bottom: 8px;
 }
 .functional-description {
         font-size: 16px;
@@ -148,6 +173,7 @@ color: #FFFFFF;
         text-align: center;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .job-title {
         font-size: 16px;
@@ -161,6 +187,8 @@ color: #FFFFFF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
+        margin-top: 16px;
+        max-width: 264px;
 }
 .modals-btn {
         min-width: 69px;
@@ -180,6 +208,7 @@ color: #FFFFFF;
         justify-content: center;
         align-items: center;
         padding: 12px 24px;
+        background-color: #F4F4FD;
 }
 
 .modals-btn:hover,
@@ -253,23 +282,23 @@ img {
 .features-top-list {
         display: flex;
         gap: 24px;
+}
+.section-two {
         padding-top: 120px;
         padding-bottom: 120px;
 }
 .our-work-container {
         display: flex;
         gap: 24px;
+}
+.section-three {
         padding-bottom: 120px;
 }
 .team-list-top {
         display: flex;
         gap: 24px;
 }
-.team-container {
-        background-color: #F4F4FD;
-        padding-top: 120px;
-        padding-bottom: 120px;
-}
+
 .team-top-container {
         background-color: #FFFFFF;
         padding: 32px 16px;
@@ -279,12 +308,8 @@ img {
 .footer-section {
  padding-top: 100px;
  padding-bottom: 100px;
- padding-left: 156px;
- padding-right: 1020px;
 }
-.footer-container {
-     width: 300px;
-}
+
 .page-header {
         border-bottom: 1px solid #E7E9FC;
 }
@@ -293,14 +318,14 @@ img {
         display: flex;
         gap: 24px;
         justify-content: center;
+        margin-bottom: 72px;
+
+}
+.all-container {
         padding-top: 96px;
-        padding-bottom: 72px;
+        padding-bottom: 120px;
 }
-.foto-container {
-        display: flex;
-        gap: 24px;
-        justify-content: center;
-}
+
 .functional-top-list {
         padding-top: 32px;
 }
@@ -308,15 +333,39 @@ img {
         margin-top: 8px;
         margin-bottom: 32px;
 }
-.functional-top-container {
-        border-bottom: 1px solid #E7E9FC;
+
+
+.features-list {
+        width: calc((100% - 72px) /4);
+}
+.imeges-list {
+        width: calc((100% - 48px) / 3);
+}
+.team-images {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: #F4F4FD;
+}
+.team-list {
+        width: calc((100% - 72px) / 4);
+}
+.card-set {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -48px;
+        margin-right: -24px;
+}
+.item {
+        flex-basis: calc(100% / 3 - 24px);
+        margin-bottom: 48px;
+        margin-right: 24px;
+}
+.text-container {
         border-left: 1px solid #E7E9FC;
         border-right: 1px solid #E7E9FC;
+        border-bottom: 1px solid #E7E9FC;
         padding-left: 16px;
 }
-.block-one {
-        margin-bottom: 48px;
-}
-.block-two {
-        padding-bottom: 120px;
+.functional-top-list {
+        margin-bottom: 8px;
 }
